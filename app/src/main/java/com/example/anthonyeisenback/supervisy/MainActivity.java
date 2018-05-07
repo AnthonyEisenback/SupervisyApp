@@ -1,20 +1,18 @@
 package com.example.anthonyeisenback.supervisy;
 import android.support.v4.app.FragmentStatePagerAdapter;
-import android.support.v4.view.PagerAdapter;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.example.anthonyeisenback.supervisy.Tabs.LotList;
-import com.example.anthonyeisenback.supervisy.Tabs.Registers;
-import com.example.anthonyeisenback.supervisy.Tabs.Schedules;
+import com.example.anthonyeisenback.supervisy.Tabs.Lot_List_Tab.LotList;
+import com.example.anthonyeisenback.supervisy.Tabs.Registers_Tab.Registers;
+import com.example.anthonyeisenback.supervisy.Tabs.Schedules.Schedules;
 
 import butterknife.ButterKnife;
 

@@ -3,4 +3,8 @@
     <string name="title_activity_fragment_tabs">FragmentTabs</string>
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
+    <string name="employee_name">%1$s</string>
+    <string name="time_on_lot">%1$s - %2$s</string>
+    <string name="on_register_textview">On Register: %1$s</string>
+    <string name="age_1_s">Age: %1$s</string>
 </resources>

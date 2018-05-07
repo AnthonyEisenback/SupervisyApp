@@ -1,4 +1,4 @@
-package com.example.anthonyeisenback.supervisy.Tabs;
+package com.example.anthonyeisenback.supervisy.Tabs.Schedules;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;

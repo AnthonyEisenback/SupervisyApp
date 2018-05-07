@@ -1,4 +1,5 @@
-package com.example.anthonyeisenback.supervisy.Tabs;
+package com.example.anthonyeisenback.supervisy.Tabs.Registers_Tab;
+
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -10,22 +11,21 @@ import android.view.ViewGroup;
 
 import com.example.anthonyeisenback.supervisy.R;
 
-public class LotList extends Fragment{
+public class Registers extends Fragment {
 
-    public static LotList newInstance() {
+    public static Registers newInstance() {
 
         Bundle args = new Bundle();
 
-        LotList fragment = new LotList();
+        Registers fragment = new Registers();
         fragment.setArguments(args);
         return fragment;
     }
 
-
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.lot_list_layout, container, false);
+        View view = inflater.inflate(R.layout.registers_layout, container, false);
         return view;
     }
 }
